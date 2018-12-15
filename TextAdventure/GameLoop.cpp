@@ -7,12 +7,16 @@ namespace GameLoop
 {
 	void WelcomePlayer(Player& player)
 	{
+		string name;
+
 		cout << "Welcome to Text Adventure" << endl << endl;
 		cout << "What is your name?" << endl << endl;
 
-		cin >> player.m_name;
+		cin >> name;
 
-		cout << endl << "Hello " << player.m_name << endl;
+		player.SetName(name);
+
+		cout << endl << "Hello " << name << endl;
 	}
 
 	void GivePlayerOptions()
@@ -37,7 +41,7 @@ namespace GameLoop
 		}
 		else
 		{
-			cout << "I do not recognie that option, try again!" << endl << endl;
+			cout << "I do not recognize that option, try again!" << endl << endl;
 		}
 
 		return chosenOption;
