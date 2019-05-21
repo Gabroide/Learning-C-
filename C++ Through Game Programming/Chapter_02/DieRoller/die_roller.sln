@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "die_roller", "die_roller\die_roller.vcxproj", "{8611DC10-E6E9-4D4E-A4B4-DB2BEE6B4F11}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8611DC10-E6E9-4D4E-A4B4-DB2BEE6B4F11}.Debug|x64.ActiveCfg = Debug|x64
+		{8611DC10-E6E9-4D4E-A4B4-DB2BEE6B4F11}.Debug|x64.Build.0 = Debug|x64
+		{8611DC10-E6E9-4D4E-A4B4-DB2BEE6B4F11}.Debug|x86.ActiveCfg = Debug|Win32
+		{8611DC10-E6E9-4D4E-A4B4-DB2BEE6B4F11}.Debug|x86.Build.0 = Debug|Win32
+		{8611DC10-E6E9-4D4E-A4B4-DB2BEE6B4F11}.Release|x64.ActiveCfg = Release|x64
+		{8611DC10-E6E9-4D4E-A4B4-DB2BEE6B4F11}.Release|x64.Build.0 = Release|x64
+		{8611DC10-E6E9-4D4E-A4B4-DB2BEE6B4F11}.Release|x86.ActiveCfg = Release|Win32
+		{8611DC10-E6E9-4D4E-A4B4-DB2BEE6B4F11}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C294C27E-E5A0-4B63-9847-8150E55068C1}
+	EndGlobalSection
+EndGlobal

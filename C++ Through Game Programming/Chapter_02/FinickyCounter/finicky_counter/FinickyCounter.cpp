@@ -1,0 +1,30 @@
+// Finicky Counter
+// Demostrates break and continue statements
+
+#include <iostream>
+
+int main()
+{
+	int count = 0;
+
+	while (true)
+	{
+		count +=1;
+
+		// end loop if count is greater than 10
+		if (count > 10)
+		{
+			break;
+		}
+
+		// skip the number 5
+		if (count == 5)
+		{
+			continue;
+		}
+
+		std::cout << count << std::endl;
+	}
+
+	return 0;
+}

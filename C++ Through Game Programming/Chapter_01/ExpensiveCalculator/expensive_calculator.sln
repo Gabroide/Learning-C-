@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "expensive_calculator", "expensive_calculator\expensive_calculator.vcxproj", "{CFD41A03-F453-4800-AD18-F77271833CBD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CFD41A03-F453-4800-AD18-F77271833CBD}.Debug|x64.ActiveCfg = Debug|x64
+		{CFD41A03-F453-4800-AD18-F77271833CBD}.Debug|x64.Build.0 = Debug|x64
+		{CFD41A03-F453-4800-AD18-F77271833CBD}.Debug|x86.ActiveCfg = Debug|Win32
+		{CFD41A03-F453-4800-AD18-F77271833CBD}.Debug|x86.Build.0 = Debug|Win32
+		{CFD41A03-F453-4800-AD18-F77271833CBD}.Release|x64.ActiveCfg = Release|x64
+		{CFD41A03-F453-4800-AD18-F77271833CBD}.Release|x64.Build.0 = Release|x64
+		{CFD41A03-F453-4800-AD18-F77271833CBD}.Release|x86.ActiveCfg = Release|Win32
+		{CFD41A03-F453-4800-AD18-F77271833CBD}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {58B184F8-09C8-492E-8615-794FF3A1B226}
+	EndGlobalSection
+EndGlobal
