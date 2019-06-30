@@ -1,16 +1,15 @@
 #include <iostream>
-#include <string>
 
 int main()
 {
 	std::cout << "Welcome to Text Adventure!" << std::endl << std::endl;
-	std::cout << "What's your nam? " << std::endl << std::endl;
+	std::cout << "What is your name?" << std::endl << std::endl;
 
-	string playerName;
-	
+	//char playerName[1024];
+	std::string playerName;
 	std::cin >> playerName;
 
-	std::cout << std::endl << "Hello " << playerName << std::endl;
+	std::cout << std::endl << "Jello " << playerName << std::endl;
 
 	return 0;
 }
