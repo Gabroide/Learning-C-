@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{6ABA3D98-0B35-48A3-980E-10CA9FD120C1}</ProjectGuid>
-    <RootNamespace>TextAdventure</RootNamespace>
+    <ProjectGuid>{307FBBBA-0AC1-4CD4-A576-7C4BE769AB63}</ProjectGuid>
+    <RootNamespace>basicstring</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -115,13 +115,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="GameLoop.cpp" />
-    <ClCompile Include="TextAdventure.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="GameLoop.h" />
-    <ClInclude Include="Player.h" />
-    <ClInclude Include="PlayerOptions.h" />
+    <ClCompile Include="basic_string.cpp" />
+    <ClCompile Include="Modificadores.cpp" />
+    <ClCompile Include="STL.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
