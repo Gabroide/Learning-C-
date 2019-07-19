@@ -120,15 +120,30 @@
     <ClCompile Include="TextAdventure.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AttackEnemyOption.h" />
+    <ClInclude Include="Chest.h" />
+    <ClInclude Include="Enemy.h" />
     <ClInclude Include="Entity.h" />
+    <ClInclude Include="EvaluateVisitor.h" />
+    <ClInclude Include="Event.h" />
+    <ClInclude Include="EventHandler.h" />
+    <ClInclude Include="EventManager.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="GameLoop.h" />
+    <ClInclude Include="Item.h" />
     <ClInclude Include="MoveOption.h" />
+    <ClInclude Include="Notifier.h" />
+    <ClInclude Include="OpenChestOption.h" />
     <ClInclude Include="Option.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="PlayerOptions.h" />
+    <ClInclude Include="QuitObserver.h" />
     <ClInclude Include="QuitOption.h" />
     <ClInclude Include="Room.h" />
+    <ClInclude Include="Singleton.h" />
+    <ClInclude Include="Sword.h" />
+    <ClInclude Include="Visitable.h" />
+    <ClInclude Include="Visitor.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

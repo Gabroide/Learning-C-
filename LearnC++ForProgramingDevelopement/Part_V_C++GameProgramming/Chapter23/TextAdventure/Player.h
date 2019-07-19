@@ -2,14 +2,41 @@
 
 #include <string>
 #include "Entity.h"
+#include "Item.h"
+#include "Sword.h"
 
 class Player
 	: public Entity
 {
 private:
+	using Items = std::vector<Item*>;
+	Items m_items;
+
+	void AddItem(const Item* item)
+	{
+		m_items.push_back(const_cast<Item*>(iten));
+	}
+
+	bool HasWapon()
+	{
+		bool hasWeapon = false;
+
+		for (const Item* item : m_items)
+		{
+			const Sword* sword = dynamic_cast<const Sword*>(item);
+			if (sword != nullptr)
+			{
+				hasWeapon = true;
+				break;
+			}
+		}
+
+		return hasWeapon;
+	}
+	
 	const Room* m_pCurrentRoom;
 	std::string m_name;
-
+	
 public:
 	Player()
 	{
